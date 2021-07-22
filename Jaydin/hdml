@@ -1,0 +1,49 @@
+!DOCTYPE hmtl>
+<html lang="en">
+  <head>
+    <!-- Controlling the web browers     -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatiable" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, inital-scale=1" />
+    <title> My resume  </title>
+  </head>
+  <body>
+    <adress> 
+    123 W125th Street <br/> 
+      City, State 10027
+    </adress>
+    <p>
+      <a href="tel:+1-124-456-7890">(123) 456-7890-</a><br/> 
+      <a href="mailto:no_reply@example.com">no reply@example.com</a>
+    </p>
+    <h1>
+      jaydin pregnon 
+    </h1>
+  <img src="https://cdn.glitch.com/b7dfdf06-1c9f-4b50-b03d-f262e7b7cee0%2Fresume.jpg?v=1626362153692" 
+       alt="resume text banner" width="100%"
+      />
+    <h2>
+      Skills
+    </h2>
+    <p>
+      add skills
+    </p>
+    <h2>
+      Experience
+    </h2>
+    
+    <div>
+    <h3>
+      Company Name, Location- Job  Title 
+      </h3>
+      <p>
+        month 20xx- present 
+      </p>
+      <ul> 
+        <li>one </li>
+        <li>two </li>
+        <li>three</li>
+      </ul>
+    </div>
+  </body>
+</html>

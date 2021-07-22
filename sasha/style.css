@@ -1,0 +1,37 @@
+/* External CSS */
+/* Global Styling */
+/* CSS comment style */
+/* Note: You can use !important to give somethihing priority */
+body {
+  background-color: #d9d9d9;
+  font-family: "Courier New";
+}
+address {
+  background-color: #a5a3c9;
+  color: black;
+}
+h4 {
+  background-color: #a5a3c9;
+}
+h1 {
+  font-family: "Zen Loop";
+}
+/* You can combine 2+ classes/tags with commas -> .classname/tag1, .classname/tag2 */
+p,
+li {
+  color: black;
+}
+span {
+  color: #706aeb;
+}
+/* Call the class="customlink" */
+/* Classes allow you to call specific codes/elements */
+/* When calling a class use the period charachter -> .classname */
+.email {
+  color: #4840d6;
+  text-transform: uppercase;
+  text-decoration: all;
+}
+.phone {
+  color: #4840d6;
+}
