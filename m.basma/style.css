@@ -1,4 +1,35 @@
 /* External CSS */
-body{
-  background-color: lightblue;
+body {
+  background-color: grey;
+  style: font-family= "Fantasy";
+}
+h1 {
+  font-family: "Zen Tokyo Zoo", cursive;
+  color: green;
+}
+h2 {
+  font-family: "Brush Script M7";
+  color: blue;
+}
+
+/* h2 {
+  font-family: Lucia Console, italic;
+  color: brown;
+} */
+
+h3 {
+  font-family: Lucia Console;
+  color: red;
+}
+p {
+  font-family: "Georgia", bold;
+  color: pink;
+}
+a {
+  font-family: "Verdana";
+  color: black;
+}
+.doggyInTheWindow{
+  background-color: transparent;
+  background-image: url("https://picsum.photos/id/237/800");
 }

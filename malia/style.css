@@ -1,5 +1,33 @@
 /* External Css */
-/* Global  */
+/* Global Styling */
 body {
-  background-color: lightblue;
+  background-color: beige;
+}
+h1 {
+  color: orange;
+}
+p {
+  font-family: "trirong";
+  color: purple;
+}
+.dogginInTheWindow {
+  background-color: transparent;
+  background-image: url("https://picsum.photos/id/237/800
+");
+}
+.colorUppercaseNounderline {
+  color: #8700fb;
+  text-transform: uppercase;
+  text-decoration: none; /* no underline */
+}
+.colorUppercaseNounderline,
+.customlink {
+  color: #8700fb;
+  text-transform: uppercase;
+  text-decoration: none; /* no underline */
+}
+@media screen and (max-width: 480px) {
+  body {
+    background-color: lightgreen;
+  }
 }

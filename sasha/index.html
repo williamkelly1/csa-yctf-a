@@ -5,6 +5,7 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="width=device-width, inital-scale=1" />
     <title>Resume Template</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -13,7 +14,7 @@
       rel="stylesheet"
     />
     <!-- Add External CSS from your project folder -->
-    <link href="style.css" rel="stylesheet" />
+    <link href="sasha/style.css" rel="stylesheet" />
   </head>
   <body>
     <address>
@@ -54,11 +55,19 @@ Go to: https://www.lipsum.com/
     <h2>
       Experience
     </h2>
-    <div>
-      <h3>
+    <!--     <dl>
+      <dt>Title</dt>
+      <dd>Details</dd>
+    </dl> -->
+    <!-- Website to learn how to use details and summary tags
+     https://www.makeuseof.com/tag/7-cool-html-effects-that-anyone-can-add-to-their-website-nb/
+        Also: https://blog.duda.co/8-cool-html-tags-you-didn-t-know-existed
+-->
+    <details>
+      <summary>
         <span> Company Name, Location </span>
         <i>- Job Title</i>
-      </h3>
+      </summary>
       <p>
         Month 20xx - Present
       </p>
@@ -66,12 +75,12 @@ Go to: https://www.lipsum.com/
         <li>Donec vehicula diam in nulla pulvinar tonsett.</li>
         <li>Morbi sit amet nunc eget purus auctor vehicula in id ante.</li>
       </ul>
-    </div>
-    <div>
-      <h3>
+    </details>
+    <details>
+      <summary>
         <span> Company Name, Location </span>
         <i>- Job Title (2)</i>
-      </h3>
+      </summary>
       <p>
         Month 20xx - Month 20xx
       </p>
@@ -79,12 +88,28 @@ Go to: https://www.lipsum.com/
         <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
         <li>Duis fringilla dui in eros blandit, eu consequat diam iaculis.</li>
       </ul>
-    </div>
+    </details>
+    <details>
+      <summary>
+        <span> Company Name, Location </span>
+        <i>- Job Title (3)</i>
+      </summary>
+      <p>
+        Month 20xx - Month 20xx
+      </p>
+      <ul>
+        <li>Sed tellus mi, consequat rutrum auctor non, commodo sed purus.</li>
+        <li>
+          Suspendisse pharetra, lorem sed feugiat pulvinar, nisi massa interdum
+          purus, ac facilisis purus quam id dui.
+        </li>
+      </ul>
+    </details>
     <h2>
       Education
     </h2>
-    <div>
-      <h3><span> School Name, Location </span> <i>- Degree</i></h3>
+    <details>
+      <summary> <span> School Name, Location </span> <i>- Degree</i> </summary>
       <p>
         Month 20xx - Month 20xx, Location
       </p>
@@ -93,7 +118,7 @@ Go to: https://www.lipsum.com/
         id nisi at ante vulputate condimentum sed vel dolor. Etiam cursus vel
         dui quis convallis.
       </p>
-    </div>
+    </details>
     <h2>
       Awards
     </h2>

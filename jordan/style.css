@@ -1,5 +1,46 @@
 /* External CSS */
 /* Global Comment */
 body {
-  background-color: lightblue;
+   background-color: powderblue;
+    }
+address {
+  font-style: normal;
+  color: green;
 }
+a {
+  color: red;
+  text-transform: uppercase;
+}
+h1 {
+  font-family: fantasy;
+  color: black;
+}
+h2 {
+  color: purple;
+     }
+h3 {
+  color: royalblue;
+     }
+span {
+  color: red;
+}
+p {
+  color: brown;
+    }
+ul {
+  color: brown;
+    }
+/* CSS3 Media 
+https://www.w3schools.com/css/css3_mediaqueries.asp
+*/
+@media screen and (max-width: 480px) {
+  body {
+    background-color: powderblue;
+  }
+}
+<div class="doggyInTheWindow">
+      <h1>
+        Judi's Resume
+      </h1>
+    </div>
+https://picsum.photos/id/237/800

@@ -1,4 +1,4 @@
-/* External CSS */
+
 body {
   background-color: yellow;
   font-size: 1em;
@@ -63,4 +63,10 @@ p {
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
+}
+@media screen and(max-width: 480px)
+{body}
+
+    background-color:purple;
+  }
 }

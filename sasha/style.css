@@ -7,14 +7,17 @@ body {
   font-family: "Courier New";
 }
 address {
-  background-color: #a5a3c9;
+  background-color: #cbcaed;
   color: black;
 }
 h4 {
-  background-color: #a5a3c9;
+  background-color: #cbcaed;
 }
 h1 {
   font-family: "Zen Loop";
+  font-weight: 700;
+  font-size: 60px;
+  text-transform: uppercase;
 }
 /* You can combine 2+ classes/tags with commas -> .classname/tag1, .classname/tag2 */
 p,
@@ -22,7 +25,13 @@ li {
   color: black;
 }
 span {
-  color: #706aeb;
+  color: #4840d6;
+  font-size: 18px;
+  font-weight: 800;
+}
+i {
+  font-size: 18px;
+  font-weight: 800;
 }
 /* Call the class="customlink" */
 /* Classes allow you to call specific codes/elements */
@@ -35,3 +44,31 @@ span {
 .phone {
   color: #4840d6;
 }
+/* CSS3 Media 
+https://www.w3schools.com/css/css3_mediaqueries.asp
+*/
+@media screen and (max-width: 200px) {
+  body {
+    background-color: darkgray;
+  }
+}
+/* display-none vs. visibility-hidden: display completely removes the ~thing~ from the product, while visibility removes it but keeps the space it occupies (keeps it empty) */
+
+/* You can set the background color to "transparent" so it will sit on whatever is "beneath" it. In the same tag/class/etc, you can use 'background-image: url("[image url]");'. Also give a size (you can use "cover" for example) and use "repeat: no-repeat". You can also use just "padding" to make the image bigger than the text/etc (it adds more space in the div/whatever) */
+/* Ex:
+<div class="doggyInTheWindow">
+      <h1>
+        Judi's Resume
+      </h1>
+    </div> <!-- .doggyInTheWindow -->
+
+.doggyInTheWindow {
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-image: url(https://picsum.photos/id/237/800);
+    background-size: cover;
+    margin: 10px
+    background-position: center;
+    color: white;
+}
+*/
